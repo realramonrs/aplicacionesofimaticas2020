@@ -1,0 +1,11 @@
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\bin\Debug\LibreriaMath.exe.config
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\bin\Debug\LibreriaMath.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\bin\Debug\LibreriaMath.pdb
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\bin\Debug\LibreriaMath.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.Resources.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\LibreriaMath\obj\Debug\LibreriaMath.pdb
