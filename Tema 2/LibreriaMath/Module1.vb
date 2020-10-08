@@ -40,6 +40,13 @@ Module Module1
         raiz = Math.Round(raiz, 2)
         Console.WriteLine("Raiz con 2 decimales: " & raiz)
 
+        'Math.max(n1,n2)
+        'Math.min(n1,n2)
+        'Math.sin(valor)
+        'Math.PI
+        'Math.E
+
+
         Console.ReadLine()
 
 
