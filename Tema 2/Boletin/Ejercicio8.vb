@@ -13,6 +13,18 @@
         Console.WriteLine("Introduzca número de moles:")
         n = Convert.ToDouble(Console.ReadLine())
 
+        'pv = nrt
+
+        presion = (n * R * temperatura) / volumen
+
+        'Mostrar por pantalla el resultado
+        Console.WriteLine("Con un volumen de " & volumen & " litros 
+            y a una temperatura de " & temperatura & " grados kelvin ," & n &
+             " moles de un gas están a " & presion & " atmósferas")
+
+        Console.ReadLine()
+
+
 
 
 
