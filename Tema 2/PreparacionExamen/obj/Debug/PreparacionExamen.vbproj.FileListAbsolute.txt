@@ -1,0 +1,11 @@
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\bin\Debug\PreparacionExamen.exe.config
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\bin\Debug\PreparacionExamen.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\bin\Debug\PreparacionExamen.pdb
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\bin\Debug\PreparacionExamen.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.Resources.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\Tema 2\PreparacionExamen\obj\Debug\PreparacionExamen.pdb
