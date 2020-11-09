@@ -179,6 +179,94 @@ Module Module1
 
                     End Select
                     Console.ReadLine()
+                Case 14
+                    Dim a, b, c As Integer
+                    Dim sol1, sol2 As Double
+                    Dim solucion As Boolean = True
+
+                    Console.WriteLine("Programa que resuelve ecuaciones de 2º grado")
+                    Console.WriteLine("ax2 + bx + c = 0")
+                    Console.WriteLine("Introduzca término a:")
+                    a = Convert.ToInt32(Console.ReadLine())
+                    Console.WriteLine("Introduzca término b:")
+                    b = Convert.ToInt32(Console.ReadLine())
+                    Console.WriteLine("Introduzca término c:")
+                    c = Convert.ToInt32(Console.ReadLine())
+
+                    'Vamos evaluando los diferentes casos
+                    'a = 0
+                    If a = 0 Then
+                        sol1 = -c / b
+                        sol2 = sol1
+                        ' b = 0
+                    ElseIf b = 0 Then
+                        Dim radicando As Integer = -c / a
+                        If radicando > 0 Then
+                            sol1 = Math.Sqrt(radicando)
+                            sol2 = -Math.Sqrt(radicando)
+                        Else
+                            solucion = False
+                            ' Console.WriteLine("No tiene solución real.")
+                        End If
+                        ' c = 0
+                    ElseIf c = 0 Then
+                        sol1 = 0
+                        sol2 = -b / a
+                        'a , b y c distintos de cero
+                    Else
+                        Dim radicando As Double = b * b - 4 * a * c
+                        'Comprobar que radicando es > 0
+
+                        If radicando < 0 Then
+                            solucion = False
+                        Else
+                            sol1 = (-b + Math.Sqrt(radicando)) / 2 * a
+                            sol2 = (-b - Math.Sqrt(radicando)) / 2 * a
+                        End If
+                    End If
+
+                    If solucion Then
+                        Console.WriteLine("Sol1 : " & sol1)
+                        Console.WriteLine("Sol2 : " & sol2)
+                    Else
+                        Console.WriteLine("No tiene solución")
+                    End If
+
+                Case 15
+                    Dim anho As Integer
+
+                    If anho Mod 4 = 0 And anho Mod 100 = 0 And anho Mod 400 = 0 Then
+                        Console.WriteLine("Bisiesto")
+                    ElseIf anho Mod 4 = 0 And anho Mod 100 <> 0 Then
+                        Console.WriteLine("Bisiesto")
+                    Else
+                        Console.WriteLine("No es bisiesto.")
+                    End If
+                Case 16
+                    Dim n1, n2, n3 As Integer
+                    Console.WriteLine("Intro valor de n1:")
+                    n1 = Convert.ToInt32(Console.ReadLine)
+                    Console.WriteLine("Intro valor de n2:")
+                    n2 = Convert.ToInt32(Console.ReadLine)
+                    Console.WriteLine("Intro valor de n3:")
+                    n3 = Convert.ToInt32(Console.ReadLine)
+
+                    If n1 < n2 Then
+                        If n1 < n3 Then
+                            If n2 < n3 Then
+                                Console.WriteLine(n1 & " " & n2 & " " & n3)
+                            Else
+                                Console.WriteLine(n1 & " " & n3 & " " & n2)
+                            End If
+                        End If
+                    End If
+
+
+
+
+
+
+
 
                 Case Else
                     Console.WriteLine("La opción introducida es errónea.")
