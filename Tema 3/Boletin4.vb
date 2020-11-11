@@ -13,6 +13,7 @@ Module Module1
             Console.WriteLine("7. Comprobar estado del agua. ")
             Console.WriteLine("8. Menú operaciones matemáticas.")
             Console.WriteLine("12. Select case con indicador. ")
+            Console.WriteLine("16. Ordenar 3 valores")
             opcion = Convert.ToInt32(Console.ReadLine())
 
             Select Case opcion
@@ -258,10 +259,48 @@ Module Module1
                             Else
                                 Console.WriteLine(n1 & " " & n3 & " " & n2)
                             End If
+                        Else
+                            'n3 es el más pequeño
+                            Console.WriteLine(n3 & " " & n1 & " " & n2)
                         End If
+
+                    ElseIf n2 < n3 Then
+                        'n2 es el más pequeño
+                        'me falta comprobar si n3 < n1
+                        If n3 < n1 Then
+                            Console.WriteLine(n2 & " " & n3 & " " & n1)
+                        Else
+                            Console.WriteLine(n2 & " " & n1 & " " & n3)
+                        End If
+                    Else
+                        'n3 es el más pequeño
+                        'n2 es el del medio
+                        Console.WriteLine(n3 & " " & n2 & " " & n1)
+
                     End If
+                    Console.WriteLine()
+                    Console.WriteLine("Ordenados con segundo método")
+                    If n1 < n2 And n1 < n3 Then
+                        If n2 < n3 Then
+                            Console.WriteLine(n1 & " " & n2 & " " & n3)
+                        Else
+                            Console.WriteLine(n1 & " " & n3 & " " & n2)
+                        End If
+                    ElseIf n2 < n1 And n2 < n3 Then
+                        If n1 < n3 Then
+                            Console.WriteLine(n2 & " " & n1 & " " & n3)
+                        Else
+                            Console.WriteLine(n2 & " " & n3 & " " & n1)
+                        End If
+                    Else
+                        If n1 < n2 Then
+                            Console.WriteLine(n3 & " " & n1 & " " & n2)
+                        Else
+                            Console.WriteLine(n3 & " " & n2 & " " & n1)
+                        End If
 
 
+                    End If
 
 
 
