@@ -12,6 +12,9 @@ Module Module1
             Console.WriteLine("7. Muestra tabla multiplicar ")
             Console.WriteLine("8. Mostrar cuadrado y cubo de 5 primeros valores a partir de n")
             Console.WriteLine("9. Mostrar numero y raiz de número")
+            Console.WriteLine("13. Número perfecto")
+            Console.WriteLine("15. Factorial")
+            Console.WriteLine("18. Primo")
             ejercicio = Convert.ToInt32(Console.ReadLine())
 
             'Evaluar el valor de la variable ejercicio
@@ -90,7 +93,134 @@ Module Module1
                         Next
                         Console.WriteLine("La suma es : " & suma)
 
+
                     End If
+                Case 13
+                    Dim numero As Integer
+                    Dim sumaDivisores As Integer = 0
+
+                    Do
+                        Try
+                            Console.WriteLine("Introduzca número:")
+                            numero = Convert.ToInt32(Console.ReadLine())
+                        Catch ex As Exception
+                            Console.WriteLine("No se ha podido leer el número")
+                            numero = -1
+                        End Try
+
+                    Loop While numero < 0
+                    For i As Integer = 1 To Convert.ToInt32(numero / 2) Step 1
+                        If numero Mod i = 0 Then
+                            sumaDivisores += i
+                        End If
+                    Next
+
+                    If sumaDivisores = numero Then
+                        Console.WriteLine(numero & " es perfecto")
+                    Else
+                        Console.WriteLine("No es perfecto")
+                    End If
+
+
+
+
+
+                Case 15
+                    Dim n As Integer
+                    Dim fact As Integer = 1
+                    Console.WriteLine("Introduzca valor:")
+                    n = Convert.ToInt32(Console.ReadLine())
+
+                    For i As Integer = n To 1 Step -1
+                        fact = fact * i
+                        Console.WriteLine("El factorial es: " & fact)
+                    Next
+
+                Case 18
+                    Dim valor As Decimal
+                    Dim contador As Integer = 0
+                    Console.WriteLine("Introduzca valor:")
+                    valor = Convert.ToInt64(Console.ReadLine())
+
+
+                    For i As Decimal = 2 To valor / 2 Step 1
+                        If valor Mod i = 0 Then
+                            contador += 1
+                            Exit For
+                        End If
+                    Next
+
+                    If contador = 0 Then
+                        Console.WriteLine("Primo")
+                    Else
+                        Console.WriteLine("No es primo")
+                    End If
+
+                Case 21
+
+
+                    Dim j As Integer = 1
+
+                    While j <= 10
+                        Console.WriteLine()
+                        Console.WriteLine("Tabla del " & j)
+                        Console.WriteLine()
+                        For i As Integer = 1 To 10 Step 1
+                            Console.WriteLine(j & " x " & i & " = " & j * i)
+                        Next
+                        j += 1
+                    End While
+
+                Case 22
+                    Dim x As Integer = 7
+                    For j As Integer = 7 To 1 Step -1
+                        For i As Integer = 1 To j Step 1
+                            Console.Write("* ")
+                        Next
+                        Console.WriteLine()
+                        x -= 1
+                    Next
+
+                Case 23
+
+                    Dim numero23 As Integer
+                    Dim sumaDivisores23 As Integer = 0
+                    Dim limiteSuperior As Integer
+
+                    Console.WriteLine("Introduzca número:")
+                    limiteSuperior = Convert.ToInt32(Console.ReadLine())
+
+                    'Bucle que vaya desde 6 hasta limiteSuperior
+                    Dim j As Integer = 6
+                    While j <= limiteSuperior
+
+                        sumaDivisores23 = 0
+                        For i As Integer = 1 To Convert.ToInt32(j / 2) Step 1
+                            If j Mod i = 0 Then
+                                sumaDivisores23 += i
+                            End If
+                        Next
+
+                        If sumaDivisores23 = j Then
+                            Console.WriteLine(j & " es perfecto")
+                        Else
+                            '  Console.WriteLine("No es perfecto")
+                        End If
+
+
+                        j += 1
+
+                    End While
+
+
+
+
+
+
+
+
+
+
                 Case Else
                     Console.WriteLine("Opción errónea.")
             End Select
