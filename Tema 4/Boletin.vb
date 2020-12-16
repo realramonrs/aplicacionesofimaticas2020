@@ -172,6 +172,7 @@ Module Module1
                     End While
 
                 Case 22
+                    'Apartado a)
                     Dim x As Integer = 7
                     For j As Integer = 7 To 1 Step -1
                         For i As Integer = 1 To j Step 1
@@ -179,6 +180,25 @@ Module Module1
                         Next
                         Console.WriteLine()
                         x -= 1
+                    Next
+                    Console.WriteLine()
+                    'Apartado b)
+                    Dim y As Integer = 7
+                    For j As Integer = 1 To 7 Step 1
+                        For i As Integer = 1 To j Step 1
+                            Console.Write("* ")
+                        Next
+                        Console.WriteLine()
+                        y += 1
+                    Next
+                    Console.WriteLine()
+                    'Apartado d)
+                    For j As Integer = 7 To 1 Step -1
+                        For i As Integer = 1 To j Step 1
+                            Console.Write(i & " ")
+                        Next
+                        Console.WriteLine()
+                        y += 1
                     Next
 
                 Case 23
@@ -212,13 +232,71 @@ Module Module1
 
                     End While
 
+                Case 24
+                    Dim limite As Integer = 250
+                    Dim i As Integer = 2
+                    Dim contador As Integer = 0
 
 
+                    While i < limite
+
+                        If limite Mod i = 0 Then
+                            contador += 1
+                            Exit While
+                        End If
 
 
+                    End While
 
+                    If contador = 1 Then
 
+                    End If
 
+                Case 26
+                    Dim numero As Integer
+                    Dim nivel As Integer
+                    Dim aleatorio As Random = New Random()
+                    Dim intentos As Integer = 0
+
+                    'Preguntar el nivel
+                    Console.WriteLine("Que nivel desa jugar?")
+                    Console.WriteLine("1 --> 3 Intentos numero generado 1 - 15")
+                    Console.WriteLine("2 --> 5 Intentos numero generado 1 - 30")
+                    Console.WriteLine("3 --> 7 Intentos numero generado 1 - 50")
+                    nivel = Convert.ToInt32(Console.ReadLine())
+
+                    Select Case nivel
+                        Case 1
+                            numero = aleatorio.Next(1, 16)
+                            Dim respuesta As Integer = 0
+                            Do
+                                Console.WriteLine("Introduzca numero:")
+                                respuesta = Convert.ToInt32(Console.ReadLine())
+                                intentos += 1
+                                If respuesta = numero Then
+                                    Console.WriteLine("Has acertado!!!")
+                                    Console.WriteLine("Número generado : " & numero)
+                                    Exit Do
+                                Else
+
+                                    Console.WriteLine("Has fallado!")
+
+                                    Console.WriteLine("Te quedan : " & 3 - intentos)
+                                    If respuesta < numero Then
+                                        Console.WriteLine("El número es mayor")
+                                    Else
+                                        Console.WriteLine("El número es menor.")
+                                    End If
+                                End If
+                            Loop While intentos < 3
+                            If intentos > 3 Then
+                                Console.WriteLine("Se acabaron tus opciones")
+                                Console.WriteLine("El número era : " & numero)
+                            End If
+                        Case 2
+                        Case 3
+
+                    End Select
 
 
                 Case Else
