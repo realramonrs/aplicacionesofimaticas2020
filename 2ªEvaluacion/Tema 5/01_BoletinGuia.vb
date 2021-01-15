@@ -105,12 +105,14 @@ Module Module1
             contador += 1
         Next
 
-        Console.WriteLine("Matriz ejercicio 9")
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 9: ****************")
         printarMatriz(x9)
 
 
         'ejercicio 11
-        Console.WriteLine("Ejercicio 11: ")
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 11: ****************")
         Dim x11(49) As Integer
         Dim generator As Random = New Random()
 
@@ -129,6 +131,8 @@ Module Module1
 
         'SUmas
         'Ejercicio 12
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 12: ****************")
         Dim x12() As Integer = {1, 2, 3, 4, 5, 6, 7, 8, 9}
         Dim suma As Integer = 0
 
@@ -147,7 +151,8 @@ Module Module1
         Dim x16() As Integer = {3, 9, -5, 1, -2, 11}
         Dim contador16 As Integer = 0
 
-        Console.WriteLine("Ejercicio 16: ")
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 16: ****************")
 
         For Each valor As Integer In x16
             If valor < 0 Then
@@ -161,6 +166,170 @@ Module Module1
         Else
             Console.WriteLine("Hay " & contador & " negativos")
         End If
+        'Ejercicio 17
+        Dim x17(20) As Integer
+        Dim gnerador17 As Random = New Random()
+        Dim contador17 As Integer = 0
+        Dim porcentaje As Double = 0
+        'Lleno el array con valores aleatorios entre 1 y 50
+        For i As Integer = 0 To x17.Length - 1 Step 1
+            x17(i) = gnerador17.Next(1, 51)
+        Next
+
+        Console.WriteLine()
+
+        Console.WriteLine("**************Ejercicio 17: ****************")
+        printarMatriz(x17)
+        For Each valor As Integer In x17
+            If Not valor Mod 2 = 0 Then
+                contador17 += 1
+            End If
+        Next
+        porcentaje = (contador17 / x17.Length) * 100
+
+        Console.WriteLine("Hay un " & porcentaje & "% de números impares.")
+
+        'Ejercicio 18
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 18: ****************")
+        Dim series(9) As String
+        Dim contador18 As Integer = 0
+        series(0) = "Breaking bad"
+        series(1) = "Juego de tronos"
+        series(2) = "Rick y Morty"
+        series(3) = "The Walking death"
+
+        For i As Integer = 0 To series.Length - 1 Step 1
+            If series(i) Is Nothing Then
+                contador18 += 1
+            End If
+        Next
+
+        'For Each valor As String In series
+        '    If valor Is Nothing Then
+        '        contador18 += 1
+        '    End If
+        'Next
+
+        'Ejercicio 21
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 21: ****************")
+        Dim posicion As Integer = -1
+        For i As Integer = 0 To series.Length - 1 Step 1
+            If series(i) Is Nothing Then
+                posicion = i
+                Exit For
+
+            End If
+        Next
+
+        If posicion = -1 Then
+            Console.WriteLine("No hay posiciones vacías.")
+        Else
+            Console.WriteLine("La primera posición vacía es: " & posicion)
+        End If
+
+
+        'ejercicio 23
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 23: ****************")
+        Dim x23() As Integer = {9, 0, 4, 2, 1, 8, 0}
+        'Encontrar el primer cero y dar la posición
+        Dim posicion23 As Integer = -1
+        For i As Integer = 0 To x23.Length - 1 Step 1
+            If x23(i) = 0 Then
+                posicion23 = i
+                Exit For
+
+            End If
+        Next
+
+        If posicion23 = -1 Then
+            Console.WriteLine("No hay ceros")
+        Else
+            Console.WriteLine("El primer cero está en la posición " & posicion23)
+        End If
+
+        'ejemplo indexof
+        Dim posicionPrimerCero As Integer = Array.IndexOf(x23, 0)
+
+        If posicionPrimerCero = -1 Then
+            Console.WriteLine("No hay ceros")
+        Else
+            Console.WriteLine("El primer cero está en la posición " & posicionPrimerCero)
+        End If
+
+        'Ejercicio 24
+        Dim x24() As Integer = {6, 4, 2, 8, 10, -1, 11}
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 24: ****************")
+
+        'Ejercicio 25
+        Dim x25() As Integer = {3, 7, 1, 9, 0, 2, 8}
+        Dim minimo As Integer = x25(0)
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 25: ****************")
+
+        For i As Integer = 1 To x25.Length - 1 Step 1
+            If x25(i) < minimo Then
+                minimo = x25(i)
+            End If
+
+        Next
+        Console.WriteLine("El número más pequeño es : " & minimo)
+
+        'Ejercicio 26
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 26: ****************")
+
+        'Ejercicio 27
+        Dim x27() As Integer = {0, 0, 0, 1, 0, 0, 0}
+        Dim x27b() As Integer = {0, 0, 0, 1, 0, 0, 0}
+        Dim iguales As Boolean = Array.Equals(x27, x27b)
+        Console.WriteLine()
+        Console.WriteLine("**************Ejercicio 27: ****************")
+        If iguales Then
+            Console.WriteLine("Son iguales")
+        Else
+            Console.WriteLine("No son iguales")
+        End If
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
