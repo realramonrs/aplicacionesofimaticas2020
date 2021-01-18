@@ -16,6 +16,8 @@ Module Module1
         Return suma
     End Function
     Sub Main()
+
+
         '1. declarar array {1,2,3,4,5,6,7,8,9}
         Dim x() As Integer = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
@@ -260,9 +262,28 @@ Module Module1
         End If
 
         'Ejercicio 24
-        Dim x24() As Integer = {6, 4, 2, 8, 10, -1, 11}
         Console.WriteLine()
         Console.WriteLine("**************Ejercicio 24: ****************")
+        Dim x24() As Integer = {9, 8, 1, 3, 0, -1, 12, 1}
+        'Ordenar con sort
+        Array.Sort(x24)
+
+        'Método de la burbuja
+
+        'For j As Integer = 0 To x28.Length Step 1
+        '    For i As Integer = 0 To x28.Length - 2 Step 1
+        '        If x28(i) > x28(i + 1) Then
+        '            'Intercambiar
+        '            Dim z As Integer = x28(i)
+        '            x28(i) = x28(i + 1)
+        '            x28(i + 1) = z
+        '        End If
+        '    Next
+        '    printarMatriz(x28)
+        'Next
+
+        'Ejemplo Array.binarySearch
+        Dim posicion28 As Integer = Array.BinarySearch(x24, 9)
 
         'Ejercicio 25
         Dim x25() As Integer = {3, 7, 1, 9, 0, 2, 8}
@@ -281,79 +302,60 @@ Module Module1
         'Ejercicio 26
         Console.WriteLine()
         Console.WriteLine("**************Ejercicio 26: ****************")
+        Dim x26A() As Integer = {2, 4, 5, 6}
+        Dim x26B() As Integer = {2, 4, 5, 6}
+        Dim iguales As Boolean = True
+
+        If x26A.Length <> x26B.Length Then
+            iguales = False
+        Else
+            For i As Integer = 0 To x26B.Length - 1 Step 1
+                If x26A(i) <> x26B(i) Then
+                    iguales = False
+                    Exit For
+                End If
+            Next
+        End If
+        If iguales Then
+            Console.WriteLine("Iguales")
+        Else
+            Console.WriteLine("No son iguales.")
+        End If
+
 
         'Ejercicio 27
         Dim x27() As Integer = {0, 0, 0, 1, 0, 0, 0}
         Dim x27b() As Integer = {0, 0, 0, 1, 0, 0, 0}
-        Dim iguales As Boolean = Array.Equals(x27, x27b)
+        Dim iguales27 As Boolean = Array.Equals(x27, x27b)
+        'Este método compara las referencias no los valores de los arrays
+        'es decir, solo devolvería true si apuntan a la misma zona de memoria
         Console.WriteLine()
         Console.WriteLine("**************Ejercicio 27: ****************")
-        If iguales Then
+        x27 = x27b
+        If iguales27 Then
             Console.WriteLine("Son iguales")
         Else
             Console.WriteLine("No son iguales")
         End If
 
+        'Ejercicio 28
+        Dim x28() As Integer = {3, 0, 9, 8, 7}
+        Dim copia(x28.Length - 1) As Integer
 
+        For i As Integer = 0 To x28.Length - 1 Step 1
+            copia(i) = x28(i)
+        Next
 
+        'ejercicio 29
+        Dim copia2(x28.Length - 1) As Integer
+        Array.Copy(x28, copia2, x28.Length)
 
+        Dim copiaParcial(x28.Length - 1) As Integer
+        Array.Copy(x28, 2, copiaParcial, 2, 3)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        'ejercicio 30
+        Dim x30() As Integer = {1, 2, 3, 4, 5}
+        ReDim Preserve x30(10)
 
         Console.ReadLine()
 
