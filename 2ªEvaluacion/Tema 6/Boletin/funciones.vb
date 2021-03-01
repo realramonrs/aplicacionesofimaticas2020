@@ -1,4 +1,5 @@
 ﻿Option Strict On
+Imports System.IO
 Module funciones
     'Función que busca palabras que empiecen por un string
 
@@ -50,5 +51,37 @@ Module funciones
         Next
         Return contador
     End Function
+
+    'Función ejercicio 7
+    Function validarCodigo(ByRef codigo As String) As Boolean
+        If Not Char.IsLetter(codigo(0)) Or Not Char.IsLetter(codigo(1)) Or Not Char.IsDigit(codigo(2)) Or Not Char.IsDigit(codigo(3)) Then
+            Return False
+        Else
+            Return True
+        End If
+    End Function
+
+    'Funciones Ficheros : Ejercicios 11 y 13 
+    Function leerFichero(ByRef ruta As String, ByRef nombre As String) As String
+        Dim rutaConNombre As String = ruta + "\" + nombre
+        'Construimos el lector con los argumentos de la función
+        Dim lector As StreamReader
+        Try
+            lector = New StreamReader(rutaConNombre)
+            Dim contenido As String = lector.ReadToEnd()
+            Return contenido
+        Catch ex As Exception
+            Return ""
+        End Try
+    End Function
+
+    Sub escribirFichero(ByRef ruta As String, ByRef nombre As String, ByRef texto As String)
+
+        Dim rutaConNombre As String = ruta + "\" + nombre
+        'Construimos el escritor con los argumentos de la función
+        Dim escritor As StreamWriter = New StreamWriter(rutaConNombre, True)
+        escritor.WriteLine(texto)
+        escritor.Close()
+    End Sub
 
 End Module
