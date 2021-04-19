@@ -24,13 +24,14 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.BoletinTema8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BoletinTema9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExplicacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ejercicio1NoSeDeQueVaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ejercicio2PasarFechaAStringToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ejercicio3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ejercicio4PasarASegundosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BoletinTema9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExplicacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormConListaAFicheroToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProyectoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -49,19 +50,6 @@ Partial Class Form1
         Me.BoletinTema8ToolStripMenuItem.Name = "BoletinTema8ToolStripMenuItem"
         Me.BoletinTema8ToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
         Me.BoletinTema8ToolStripMenuItem.Text = "Boletin Tema 8"
-        '
-        'BoletinTema9ToolStripMenuItem
-        '
-        Me.BoletinTema9ToolStripMenuItem.Name = "BoletinTema9ToolStripMenuItem"
-        Me.BoletinTema9ToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
-        Me.BoletinTema9ToolStripMenuItem.Text = "Boletin Tema 9"
-        '
-        'ExplicacionesToolStripMenuItem
-        '
-        Me.ExplicacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FormConListaAFicheroToolStripMenuItem})
-        Me.ExplicacionesToolStripMenuItem.Name = "ExplicacionesToolStripMenuItem"
-        Me.ExplicacionesToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
-        Me.ExplicacionesToolStripMenuItem.Text = "Explicaciones"
         '
         'Ejercicio1NoSeDeQueVaToolStripMenuItem
         '
@@ -87,11 +75,30 @@ Partial Class Form1
         Me.Ejercicio4PasarASegundosToolStripMenuItem.Size = New System.Drawing.Size(236, 22)
         Me.Ejercicio4PasarASegundosToolStripMenuItem.Text = "Ejercicio 4: Pasar a segundos"
         '
+        'BoletinTema9ToolStripMenuItem
+        '
+        Me.BoletinTema9ToolStripMenuItem.Name = "BoletinTema9ToolStripMenuItem"
+        Me.BoletinTema9ToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
+        Me.BoletinTema9ToolStripMenuItem.Text = "Boletin Tema 9"
+        '
+        'ExplicacionesToolStripMenuItem
+        '
+        Me.ExplicacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FormConListaAFicheroToolStripMenuItem, Me.ProyectoToolStripMenuItem})
+        Me.ExplicacionesToolStripMenuItem.Name = "ExplicacionesToolStripMenuItem"
+        Me.ExplicacionesToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
+        Me.ExplicacionesToolStripMenuItem.Text = "Explicaciones"
+        '
         'FormConListaAFicheroToolStripMenuItem
         '
         Me.FormConListaAFicheroToolStripMenuItem.Name = "FormConListaAFicheroToolStripMenuItem"
         Me.FormConListaAFicheroToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.FormConListaAFicheroToolStripMenuItem.Text = "Form con lista a fichero"
+        '
+        'ProyectoToolStripMenuItem
+        '
+        Me.ProyectoToolStripMenuItem.Name = "ProyectoToolStripMenuItem"
+        Me.ProyectoToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.ProyectoToolStripMenuItem.Text = "Proyecto"
         '
         'Form1
         '
@@ -119,4 +126,5 @@ Partial Class Form1
     Friend WithEvents BoletinTema9ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExplicacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FormConListaAFicheroToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProyectoToolStripMenuItem As ToolStripMenuItem
 End Class
