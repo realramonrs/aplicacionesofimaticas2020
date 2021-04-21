@@ -54,6 +54,11 @@ Public Class ProyectoSencillo
             canciones.Add(registro)
             MessageBox.Show("Canción registrada provisionalmente!")
             actualizarInfoListBox()
+
+            ''Añadir al fichero
+            'Dim escritor As StreamWriter = New StreamWriter(ruta, True)
+            'escritor.WriteLine(registro)
+            'escritor.Close()
         End If
     End Sub
 

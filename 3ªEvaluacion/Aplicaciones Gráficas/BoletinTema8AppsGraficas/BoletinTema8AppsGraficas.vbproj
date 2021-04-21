@@ -83,6 +83,18 @@
     <Compile Include="Ejercicio2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Ejercicio5.Designer.vb">
+      <DependentUpon>Ejercicio5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio6.Designer.vb">
+      <DependentUpon>Ejercicio6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio6.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Ejercicio2.resx">
       <DependentUpon>Ejercicio2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio6.resx">
+      <DependentUpon>Ejercicio6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>

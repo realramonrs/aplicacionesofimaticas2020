@@ -34,40 +34,48 @@ Partial Class Ejercicio2
         Me.btnConvertirFecha = New System.Windows.Forms.Button()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(130, 70)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label1.Location = New System.Drawing.Point(30, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(84, 13)
+        Me.Label1.Size = New System.Drawing.Size(160, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Introduce datos:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(130, 109)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label2.Location = New System.Drawing.Point(30, 67)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(25, 13)
+        Me.Label2.Size = New System.Drawing.Size(40, 24)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Día"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(130, 161)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label3.Location = New System.Drawing.Point(30, 119)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 13)
+        Me.Label3.Size = New System.Drawing.Size(55, 24)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Mes:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(130, 210)
+        Me.Label4.Location = New System.Drawing.Point(30, 168)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(26, 13)
         Me.Label4.TabIndex = 0
@@ -85,7 +93,7 @@ Partial Class Ejercicio2
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.lblResultado)
-        Me.GroupBox1.Location = New System.Drawing.Point(133, 266)
+        Me.GroupBox1.Location = New System.Drawing.Point(33, 224)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(200, 100)
         Me.GroupBox1.TabIndex = 1
@@ -94,28 +102,28 @@ Partial Class Ejercicio2
         '
         'txtDia
         '
-        Me.txtDia.Location = New System.Drawing.Point(195, 106)
+        Me.txtDia.Location = New System.Drawing.Point(95, 64)
         Me.txtDia.Name = "txtDia"
         Me.txtDia.Size = New System.Drawing.Size(100, 20)
         Me.txtDia.TabIndex = 0
         '
         'txtMes
         '
-        Me.txtMes.Location = New System.Drawing.Point(195, 158)
+        Me.txtMes.Location = New System.Drawing.Point(95, 116)
         Me.txtMes.Name = "txtMes"
         Me.txtMes.Size = New System.Drawing.Size(100, 20)
         Me.txtMes.TabIndex = 1
         '
         'txtAnho
         '
-        Me.txtAnho.Location = New System.Drawing.Point(195, 207)
+        Me.txtAnho.Location = New System.Drawing.Point(95, 165)
         Me.txtAnho.Name = "txtAnho"
         Me.txtAnho.Size = New System.Drawing.Size(100, 20)
         Me.txtAnho.TabIndex = 2
         '
         'btnConvertirFecha
         '
-        Me.btnConvertirFecha.Location = New System.Drawing.Point(435, 103)
+        Me.btnConvertirFecha.Location = New System.Drawing.Point(205, 61)
         Me.btnConvertirFecha.Name = "btnConvertirFecha"
         Me.btnConvertirFecha.Size = New System.Drawing.Size(95, 32)
         Me.btnConvertirFecha.TabIndex = 3
@@ -124,7 +132,7 @@ Partial Class Ejercicio2
         '
         'btnLimpiar
         '
-        Me.btnLimpiar.Location = New System.Drawing.Point(435, 158)
+        Me.btnLimpiar.Location = New System.Drawing.Point(205, 116)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(95, 32)
         Me.btnLimpiar.TabIndex = 3
@@ -133,12 +141,32 @@ Partial Class Ejercicio2
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(435, 210)
+        Me.btnSalir.Location = New System.Drawing.Point(205, 168)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(95, 32)
         Me.btnSalir.TabIndex = 3
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Label1)
+        Me.GroupBox2.Controls.Add(Me.btnSalir)
+        Me.GroupBox2.Controls.Add(Me.Label2)
+        Me.GroupBox2.Controls.Add(Me.btnLimpiar)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.btnConvertirFecha)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.txtAnho)
+        Me.GroupBox2.Controls.Add(Me.GroupBox1)
+        Me.GroupBox2.Controls.Add(Me.txtMes)
+        Me.GroupBox2.Controls.Add(Me.txtDia)
+        Me.GroupBox2.Location = New System.Drawing.Point(70, 38)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(386, 353)
+        Me.GroupBox2.TabIndex = 4
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "GroupBox2"
         '
         'Ejercicio2
         '
@@ -146,23 +174,14 @@ Partial Class Ejercicio2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.btnSalir)
-        Me.Controls.Add(Me.btnLimpiar)
-        Me.Controls.Add(Me.btnConvertirFecha)
-        Me.Controls.Add(Me.txtAnho)
-        Me.Controls.Add(Me.txtMes)
-        Me.Controls.Add(Me.txtDia)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.GroupBox2)
         Me.Name = "Ejercicio2"
         Me.Text = "Ejercicio2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -178,4 +197,5 @@ Partial Class Ejercicio2
     Friend WithEvents btnConvertirFecha As Button
     Friend WithEvents btnLimpiar As Button
     Friend WithEvents btnSalir As Button
+    Friend WithEvents GroupBox2 As GroupBox
 End Class

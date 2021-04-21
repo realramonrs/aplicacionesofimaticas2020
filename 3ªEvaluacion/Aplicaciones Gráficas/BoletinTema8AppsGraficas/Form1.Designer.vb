@@ -32,6 +32,8 @@ Partial Class Form1
         Me.ExplicacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormConListaAFicheroToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProyectoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Ejercicio5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Ejercicio6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -46,7 +48,7 @@ Partial Class Form1
         '
         'BoletinTema8ToolStripMenuItem
         '
-        Me.BoletinTema8ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Ejercicio1NoSeDeQueVaToolStripMenuItem, Me.Ejercicio2PasarFechaAStringToolStripMenuItem, Me.Ejercicio3ToolStripMenuItem, Me.Ejercicio4PasarASegundosToolStripMenuItem})
+        Me.BoletinTema8ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Ejercicio1NoSeDeQueVaToolStripMenuItem, Me.Ejercicio2PasarFechaAStringToolStripMenuItem, Me.Ejercicio3ToolStripMenuItem, Me.Ejercicio4PasarASegundosToolStripMenuItem, Me.Ejercicio5ToolStripMenuItem, Me.Ejercicio6ToolStripMenuItem})
         Me.BoletinTema8ToolStripMenuItem.Name = "BoletinTema8ToolStripMenuItem"
         Me.BoletinTema8ToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
         Me.BoletinTema8ToolStripMenuItem.Text = "Boletin Tema 8"
@@ -100,6 +102,18 @@ Partial Class Form1
         Me.ProyectoToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.ProyectoToolStripMenuItem.Text = "Proyecto"
         '
+        'Ejercicio5ToolStripMenuItem
+        '
+        Me.Ejercicio5ToolStripMenuItem.Name = "Ejercicio5ToolStripMenuItem"
+        Me.Ejercicio5ToolStripMenuItem.Size = New System.Drawing.Size(236, 22)
+        Me.Ejercicio5ToolStripMenuItem.Text = "Ejercicio 5: "
+        '
+        'Ejercicio6ToolStripMenuItem
+        '
+        Me.Ejercicio6ToolStripMenuItem.Name = "Ejercicio6ToolStripMenuItem"
+        Me.Ejercicio6ToolStripMenuItem.Size = New System.Drawing.Size(236, 22)
+        Me.Ejercicio6ToolStripMenuItem.Text = "Ejercicio 6:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -127,4 +141,6 @@ Partial Class Form1
     Friend WithEvents ExplicacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FormConListaAFicheroToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProyectoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Ejercicio5ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Ejercicio6ToolStripMenuItem As ToolStripMenuItem
 End Class

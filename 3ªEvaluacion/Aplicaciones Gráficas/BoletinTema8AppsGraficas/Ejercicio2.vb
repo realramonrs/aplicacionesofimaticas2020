@@ -2,6 +2,9 @@
     Private Sub Ejercicio2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Colocar el foco en txtDia
         Me.ActiveControl = txtDia
+
+        'Centrar el groupbox
+
     End Sub
 
     Private Sub btnConvertirFecha_Click(sender As Object, e As EventArgs) Handles btnConvertirFecha.Click

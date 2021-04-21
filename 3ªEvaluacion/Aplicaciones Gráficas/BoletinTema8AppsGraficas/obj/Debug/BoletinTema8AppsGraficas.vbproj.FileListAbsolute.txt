@@ -13,3 +13,4 @@ C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8Ap
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Ejercicio2.resources
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.FormConListaAfichero.resources
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.ProyectoSencillo.resources
+C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Ejercicio6.resources
