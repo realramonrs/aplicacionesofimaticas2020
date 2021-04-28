@@ -1,0 +1,12 @@
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\bin\Debug\ExplicacionProyectoSencillo.exe.config
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\bin\Debug\ExplicacionProyectoSencillo.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\bin\Debug\ExplicacionProyectoSencillo.pdb
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\bin\Debug\ExplicacionProyectoSencillo.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.Form1.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.Resources.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ExplicacionProyectoSencillo\obj\Debug\ExplicacionProyectoSencillo.pdb

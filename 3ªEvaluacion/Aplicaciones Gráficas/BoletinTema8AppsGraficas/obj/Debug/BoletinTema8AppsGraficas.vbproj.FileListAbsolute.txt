@@ -14,3 +14,19 @@ C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8Ap
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.FormConListaAfichero.resources
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.ProyectoSencillo.resources
 C:\Users\Ramon RS\source\repos\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Ejercicio6.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\bin\Debug\BoletinTema8AppsGraficas.exe.config
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\bin\Debug\BoletinTema8AppsGraficas.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\bin\Debug\BoletinTema8AppsGraficas.pdb
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\bin\Debug\BoletinTema8AppsGraficas.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Ejercicio2.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Ejercicio6.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Form1.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.FormConListaAfichero.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.Resources.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.ProyectoSencillo.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\Aplicaciones Gráficas\BoletinTema8AppsGraficas\obj\Debug\BoletinTema8AppsGraficas.pdb

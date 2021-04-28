@@ -76,6 +76,8 @@ Public Class ProyectoSencillo
         Dim titulo As String = txtBuscarTitulo.Text
         Dim encontrado As Boolean = False
         If titulo = "" Then
+            MessageBox.Show("Debe introducir un título")
+            txtBuscarTitulo.Focus()
         Else
             'Busco titulo en la lista
 
