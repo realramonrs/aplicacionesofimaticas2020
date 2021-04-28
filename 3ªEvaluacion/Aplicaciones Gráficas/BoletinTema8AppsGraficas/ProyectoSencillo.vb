@@ -4,7 +4,7 @@ Public Class ProyectoSencillo
     Dim ruta As String = Directory.GetCurrentDirectory() + "\cancionesBuenas.txt"
     Private Sub ProyectoSencillo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Volcar info a la lista
-
+        MessageBox.Show("Hola")
         If File.Exists(ruta) Then
             Dim lector As StreamReader = New StreamReader(ruta)
 
