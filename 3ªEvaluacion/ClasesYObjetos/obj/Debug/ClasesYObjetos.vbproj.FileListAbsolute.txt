@@ -1,0 +1,12 @@
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\bin\Debug\ClasesYObjetos.exe.config
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\bin\Debug\ClasesYObjetos.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\bin\Debug\ClasesYObjetos.pdb
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\bin\Debug\ClasesYObjetos.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.Form1.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.Resources.resources
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.exe
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.xml
+C:\Users\Ramon RS\Documents\GitHub\aplicacionesofimaticas2020\3ªEvaluacion\ClasesYObjetos\obj\Debug\ClasesYObjetos.pdb
