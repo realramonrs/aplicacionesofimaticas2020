@@ -1,0 +1,12 @@
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\bin\Debug\ExplicacionErikFicheros.exe.config
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\bin\Debug\ExplicacionErikFicheros.exe
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\bin\Debug\ExplicacionErikFicheros.pdb
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\bin\Debug\ExplicacionErikFicheros.xml
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.vbprojAssemblyReference.cache
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.Form1.resources
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.Resources.resources
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.vbproj.GenerateResource.cache
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.vbproj.CoreCompileInputs.cache
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.exe
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.xml
+C:\Users\Ramon RS\source\repos\ExplicacionErikFicheros\obj\Debug\ExplicacionErikFicheros.pdb

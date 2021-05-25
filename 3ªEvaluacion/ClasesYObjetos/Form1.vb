@@ -45,7 +45,7 @@ Public Class Form1
         'Recorrer la lista y volcar los dnis
 
         For Each a As Alumno In alumnos
-            ListBox1.Items.Add(a.dni)
+            ListBox1.Items.Add(a.dni + " " + a.nombre)
         Next
 
 
